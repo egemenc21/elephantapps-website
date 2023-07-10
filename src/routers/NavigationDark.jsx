@@ -1,11 +1,12 @@
 import React, { Fragment, useState, useEffect } from "react";
 import { Link, Outlet } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import ElephantAppsIcon from '../assets/elephantappslogowhite.svg'
+import ElephantAppsIcon from '../assets/elephantappslogoblack.svg'
 import NavbarList from "../components/NavbarList";
 import { nanoid } from "nanoid";
 
 import { useLocation } from "react-router-dom";
+import NavbarDarkList from "../components/NavbarDarkList";
 
 const useFindPath = () => {
   const location = useLocation();
@@ -28,7 +29,7 @@ const navbarNames = [
 export const lowercaseAndMergeName = (name) =>
   name.toLowerCase().replace(/\s/g, "");
 
-const Navigation = () => {
+const NavigationDark = () => {
   //Opening and closing the navigation bar in smaller screens
   const [nav, setNav] = useState(false);
   const [lang, setLang] = useState(false);
@@ -55,8 +56,8 @@ const Navigation = () => {
     <Fragment>
       <div className="fixed left-0 right-0 z-[100]">
         <div
-          className={`flex justify-between items-center hover:cursor-pointer bg-white transition duration-700 ease-in-out
-           ${!color ? null : "shadow-lg "} ${path === "/aboutus" ? " bg-transparent hover:text-white " : ""}`}
+          className={`flex justify-between items-center hover:cursor-pointer bg-transparent transition duration-700 ease-in-out
+           ${!color ? null : "shadow-lg "}`}
         >
        
           <Link className="pl-4">
@@ -64,7 +65,7 @@ const Navigation = () => {
           </Link>
           <ul className="hidden lg:flex text-sm uppercase items-center">
             {navbarNames.map((name, index) => {
-              return <NavbarList key={index} name={name} />;
+              return <NavbarDarkList key={index} name={name} />;
             })}
             <button
               className="px-3 mx-4 text-gray-400 hover:text-black "
@@ -92,7 +93,7 @@ const Navigation = () => {
               <AiOutlineClose size={30} />
             </li>
             {navbarNames.map((name) => (
-              <NavbarList name={name} key={nanoid()} />
+              <NavbarDarkList name={name} key={nanoid()} />
             ))}
             <li onClick={handleLang}> {lang ? "EN" : "TR"} </li>
           </ul>
@@ -104,4 +105,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default NavigationDark;

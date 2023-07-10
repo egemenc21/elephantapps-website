@@ -35,12 +35,15 @@ export const FooterDataElements = () => {
 const FooterData = () => {
   return (
     <div className="py-8 px-[25px] ">
-      <FooterDataElements/>
+      <FooterDataElements />
       <div className="flex justify-evenly items-center gap-10">
-        <a href="https://www.goodfirms.co/company/elephantapps" _blank>
+        <a href="https://www.goodfirms.co/company/elephantapps" target="_blank">
           <img className="w-[200px]" src={AppDevImage} alt="AppDevImage" />
         </a>
-        <a href="https://www.trustpilot.com/review/elephantapps.co" _blank>
+        <a
+          href="https://www.trustpilot.com/review/elephantapps.co"
+          target="_blank"
+        >
           <img className="w-[300px]" src={TrustLogo} alt="TrustLogo" />
         </a>
       </div>

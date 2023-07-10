@@ -1,5 +1,5 @@
 import React from "react";
-import SmallHeading from "../SmallHeading";
+import { SmallHeading } from "../../routers/Home";
 import PlanningElement from "./PlanningElement";
 const planningItems = [
   {
@@ -37,7 +37,7 @@ const Planning = () => {
       </h2>
       <SmallHeading
         name={"PLANNING."}
-        className="border-t-2 py-4 border-t-[#ff5354]"
+        className="after:absolute after:inset-0 after:border-t-2 after:border-[#ff5354] after:top-0 after:right-[50%] pt-2"
       />
 
       <div className="grid lg:grid-cols-2 mt-2">
@@ -46,11 +46,11 @@ const Planning = () => {
           <h3 className="text-4xl py-2 my-2">
             Developing Enterprise Applications.
           </h3>
-          <p2 className="my-2">
+          <p className="my-2">
             We produce new ideas and new technologies with our experienced and
             self-improving team. We do life cycle analysis of applications, and
             we plan the development and publishing processes perfectly.
-          </p2>
+          </p>
         </div>
         <div className="grid sm:grid-cols-2">
           {planningItems.map((item) => (

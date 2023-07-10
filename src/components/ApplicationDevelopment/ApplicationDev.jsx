@@ -1,5 +1,5 @@
 import React from "react";
-import SmallHeading from "../SmallHeading";
+import { SmallHeading } from "../../routers/Home";
 import DevCode from "../../assets/dev_code.jpg"
 import DevDesign from "../../assets/dev_design.jpg";
 import DevLaunch from "../../assets/dev_launch.jpg";
@@ -43,7 +43,7 @@ const ApplicationDev = () => {
   return (
     <div className="bg-[#FAFAFA] py-8 px-[25px]">
       <SmallHeading
-        className="border-t-2 py-4 border-t-[#ff5354]"
+        className="after:absolute after:inset-0 after:border-t-2 after:border-[#ff5354] after:top-0 after:right-[50%] pt-2"
         name={"Application Development Stages"}
       />
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 pt-[80px]">

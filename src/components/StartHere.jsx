@@ -1,5 +1,5 @@
 import React from "react";
-import SmallHeading from "./SmallHeading";
+import { SmallHeading } from "../routers/Home";
 import { FiMail, FiPhone } from "react-icons/fi";
 import MailIcon from "../assets/mail-icon-elep.png";
 
