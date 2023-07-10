@@ -2,7 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { lowercaseAndMergeName } from "../routers/Navigation";
 import ElephantAppsLogo from "../assets/elephantappslogowhite.svg";
-import {AiOutlineInstagram,AiOutlineTwitter,AiOutlineLinkedin,AiOutlineFacebook,} from 'react-icons/ai'
+import {
+  AiOutlineInstagram,
+  AiOutlineTwitter,
+  AiOutlineLinkedin,
+  AiOutlineFacebook,
+} from "react-icons/ai";
 
 export const FooterLinks = ({ name, link, target }) => {
   return (
@@ -47,10 +52,29 @@ const Footer = () => {
             link={"mailto:info@elephantapps.co"}
           />
           <li className="flex gap-5 pt-2">
-            <AiOutlineInstagram className="text-gray-500" size={25}/>
-            <AiOutlineFacebook className="text-gray-500" size={25}/>
-            <AiOutlineLinkedin className="text-gray-500" size={25}/>
-            <AiOutlineTwitter className="text-gray-500" size={25}/>
+            <a href="https://www.instagram.com/elephantapps/" target="_blank" rel="noreferrer">
+              <AiOutlineInstagram className="text-gray-500" size={25} />
+            </a>
+            <a href="https://twitter.com/elephantapps" target="_blank" rel="noreferrer">
+              <AiOutlineFacebook
+                
+                className="text-gray-500"
+                size={25}
+              />
+            </a>
+            <a href="https://www.linkedin.com/company/elephantapps/" target="_blank" rel="noreferrer">
+              <AiOutlineLinkedin
+                
+                className="text-gray-500"
+                size={25}
+              />
+            </a>
+            <a href="https://www.facebook.com/elephantapps.co/" target="_blank" rel="noreferrer">
+              <AiOutlineTwitter             
+                className="text-gray-500"
+                size={25}
+              />
+            </a>
           </li>
         </ul>
       </div>

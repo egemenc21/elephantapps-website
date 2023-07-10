@@ -4,18 +4,6 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import ElephantAppsIcon from '../assets/elephantappslogowhite.svg'
 import NavbarList from "../components/NavbarList";
 import { nanoid } from "nanoid";
-
-import { useLocation } from "react-router-dom";
-
-const useFindPath = () => {
-  const location = useLocation();
-  const [currentPath, setCurrentPath] = useState();
-  useEffect(() => {
-    setCurrentPath(location.pathname);
-  }, [location]);
-  return currentPath;
-};
-
 const navbarNames = [
   "Home",
   "About us",
@@ -50,13 +38,12 @@ const Navigation = () => {
     setLang(!lang);
   };
 
-  const path = useFindPath();
   return (
     <Fragment>
       <div className="fixed left-0 right-0 z-[100]">
         <div
           className={`flex justify-between items-center hover:cursor-pointer bg-white transition duration-700 ease-in-out
-           ${!color ? null : "shadow-lg "} ${path === "/aboutus" ? " bg-transparent hover:text-white " : ""}`}
+           ${!color ? null : "shadow-lg "} `}
         >
        
           <Link className="pl-4">

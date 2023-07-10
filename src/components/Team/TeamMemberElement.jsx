@@ -8,13 +8,12 @@ const TeamMemberElement = ({member ,className}) => {
   const { name, job, image, title } = member;
   
   return (
-    <div className="flex items-center p-8">
+    <div className="flex items-center p-4">
       <img
         src={image}
-        className="w-[100px] h-[100px] rounded-full"
+        className="w-[100px] h-[100px] rounded-full grayscale object-cover"
         alt="team images"
-      />
-      {console.log(className)}
+      />     
       <div className={"ml-8 " + className}>
         <h5 className="text-sm pb-2">{name}</h5>
         {title ? (
