@@ -16,5 +16,5 @@ const Button = ({ name, buttonType, ...otherProps }) => {
   const CustomButton = getButton(buttonType);
   return <CustomButton name={name} {...otherProps}></CustomButton>;
 };
-
+//base buttona py px yazinca inverted da etkileniyor neden?
 export default Button;

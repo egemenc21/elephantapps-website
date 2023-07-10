@@ -24,7 +24,7 @@ const ServicesCardsElement = ({ cards, name }) => {
       <span className="text-[#ff5354] text-2xl font-light relative uppercase after:absolute after:inset-0 after:border-t-2 after:border-[#ff5354] after:top-0 after:right-[25%] after:left-[25%] pt-2">
         {name}
       </span>
-      <div className="flex justify-center gap-8">
+      <div className="grid sm:grid-cols-2  lg:flex justify-center gap-8">
         {cards.map((card, index) => (
           <CardElement key={index} image={card.image} text={card.text} />
         ))}

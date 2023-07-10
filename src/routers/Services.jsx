@@ -38,7 +38,7 @@ const Services = () => {
       {servicesCardItems.map((cardItem) => (
         <ServicesElement key={cardItem.id} cards={cardItem.cards} name={cardItem.name} />
       ))} 
-      <img src={Elephant} className="w-[20%]" alt="Elephant" />
+      <img src={Elephant} className="w-[250px]" alt="Elephant" />
 
       </div>
       <Footer/>

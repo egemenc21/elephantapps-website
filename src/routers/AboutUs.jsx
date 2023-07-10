@@ -20,8 +20,8 @@ const AboutUs = () => {
             ensure that the enterprise growth.
           </p>
           <div className="pt-12 grid sm:grid-cols-2 grid-cols-center gap-5">
-            <Button name={"What do we do?"} className='sm:py-[15px] px-[30px]' buttonType={BUTTON_TYPE_CLASSES.base} />
-            <Button name={"Projects"} className='sm:w-[80%] sm:py-[15px] px-[30px]' buttonType={BUTTON_TYPE_CLASSES.inverted} />
+            <Button name={"What do we do?"} className='sm:py-[15px] sm:px-[30px]' buttonType={BUTTON_TYPE_CLASSES.base} />
+            <Button name={"Projects"} className='sm:w-[80%] sm:py-[15px] sm:px-[30px]' buttonType={BUTTON_TYPE_CLASSES.inverted} />
           </div>
         </div>
         <Team teamType={TEAM_TYPE_CLASSES.inverted}/>        

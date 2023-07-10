@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { lowercaseAndMergeName } from "../routers/Navigation";
+import { lowercaseAndMergeName } from "../components/NavbarList";
 import ElephantAppsLogo from "../assets/elephantappslogowhite.svg";
 import {
   AiOutlineInstagram,
