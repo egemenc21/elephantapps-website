@@ -2,11 +2,31 @@ import React from "react";
 import { SmallHeading } from "../routers/Home";
 import { FiMail, FiPhone } from "react-icons/fi";
 import MailIcon from "../assets/mail-icon-elep.png";
-
+import { motion } from "framer-motion";
 const StartHere = () => {
   return (
-    <div className="px-[25px] py-4 text-gray-500">
-      <div className="sm:flex justify-center items-center gap-5">
+    <motion.div
+      initial="offscreen"
+      whileInView="onscreen"
+      className="px-[25px] py-4 text-gray-500"
+    >
+      <motion.div
+        variants={{
+          offscreen: {
+            x: -300,
+            opacity: 0,
+          },
+          onscreen: {
+            x: 0,
+            opacity: 1,
+            transition: {
+              type: "spring",              
+              duration: 1,
+            },
+          },
+        }}
+        className="sm:flex justify-center items-center gap-5"
+      >
         <div>
           <SmallHeading name={"start here"} />
           <p className="py-8">
@@ -15,7 +35,7 @@ const StartHere = () => {
           </p>
           <div className="flex flex-col justify-center gap-5">
             <FiPhone size={30} />
-            <span >+90 (216) 225-8364</span>
+            <span>+90 (216) 225-8364</span>
           </div>
           <div className="flex flex-col justify-between gap-5 py-4">
             <FiMail size={30} />
@@ -23,10 +43,9 @@ const StartHere = () => {
           </div>
         </div>
         <img src={MailIcon} alt="" />
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
- 
 };
 
 export default StartHere;

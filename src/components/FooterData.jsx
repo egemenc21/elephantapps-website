@@ -4,6 +4,7 @@ import ProjectsImage from "../assets/projects.jpg";
 import ServicesImage from "../assets/services.jpg";
 import AppDevImage from "../assets/app-development.svg";
 import TrustLogo from "../assets/trustpilot-logo.png";
+import { motion } from "framer-motion";
 
 export const footerImagesData = [
   { id: 1, image: AboutUsImage, heading: "About Us" },
@@ -21,20 +22,41 @@ export const footerImagesData = [
 // };
 export const FooterDataElements = () => {
   return (
-    <div className="grid sm:grid-cols-3 gap-5">
+    <motion.div
+      variants={{
+        offscreen: {
+          x: -300,
+          opacity: 0,
+        },
+        onscreen: {
+          x: 0,
+          opacity: 1,
+          transition: {
+            type: "spring",
+            duration: 1,
+          },
+        },
+      }}
+      className="grid sm:grid-cols-3 gap-5"
+    >
       {footerImagesData.map(({ image, heading, id }) => (
         <div key={id}>
           <img className="w-[550px]" src={image} alt="images" />
           <h3 className="text-center py-4">{heading}</h3>
         </div>
       ))}
-    </div>
+    </motion.div>
   );
 };
 
 const FooterData = () => {
   return (
-    <div className="py-8 px-[25px] ">
+    <motion.div
+      initial="offscreen"
+      whileInView="onscreen"
+      viewport={{ once: true, amount: 0.8 }}
+      className="py-8 px-[25px] "
+    >
       <FooterDataElements />
       <div className="flex justify-evenly items-center gap-10">
         <a href="https://www.goodfirms.co/company/elephantapps" target="_blank">
@@ -47,7 +69,7 @@ const FooterData = () => {
           <img className="w-[300px]" src={TrustLogo} alt="TrustLogo" />
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

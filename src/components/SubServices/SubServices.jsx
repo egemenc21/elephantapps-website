@@ -19,16 +19,19 @@ const SubServices = () => {
     <>
       <div className="pt-[100px] bg-[#FAFAFA]">
         <div className="flex flex-col justify-center items-center gap-4">
-          <h2 className="text-2xl">{products.heading} </h2>
-          <span className="text-[#ff5354] text-lg p-8 font-light relative uppercase after:absolute after:inset-0 after:border-t-2 after:border-[#ff5354] after:top-0 after:right-[25%] after:left-[25%] pt-2">
+          <h2 className="text-2xl text-center">{products.heading} </h2>
+          <span className="text-[#ff5354] text-center text-lg p-8 font-light relative uppercase after:absolute after:inset-0 after:border-t-2 after:border-[#ff5354] after:top-0 after:right-[25%] after:left-[25%] pt-2">
             {products.subHeading}
           </span>
-          <p className="px-4 pb-8">{products.quote}</p>
-          {products.apps.map((app) => (
+          <p className="px-4 pb-8">{products.quote}</p>        
+          
+          
+        </div>
+        <div className="flex flex-col items-start ">
+            {products.apps.map((app) => (
             <SubServicesElement app={app}/>
           ))}
-          <div></div>
-        </div>
+          </div>
         <FooterDataElements />
         <Footer />
       </div>

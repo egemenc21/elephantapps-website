@@ -3,10 +3,10 @@ import React from "react";
 const SubServicesElement = ({ app }) => {
   const { name, icon, imageUrl } = app;
   return (
-    <div>
-      <p className="p-4">{name}</p>
+    <div className="max-w-[850px]">
+      <p className="p-8">{name}</p>
       {icon ? <img className="p-6 w-[150px]" src={icon} alt="icon" /> : null}
-      <img src={imageUrl} alt="icon" />
+      {imageUrl ? <img src={imageUrl} className="mb-8 text-gray-500" alt="icon" /> : null}
     </div>
   );
 };

@@ -37,7 +37,7 @@ const Variants = {
     opacity:0
   },
   onscreen: {
-    x: 50,
+    x: 0,
     opacity:1,
     transition: {
       type: "spring",
@@ -76,7 +76,7 @@ const Planning = () => {
         </motion.div>
         <div className="grid sm:grid-cols-2">
           {planningItems.map((item) => (
-            <PlanningElement key={item.id} item={item} variants={Variants} />
+            <PlanningElement key={item.id} item={item} />
           ))}
         </div>
       </motion.div>
