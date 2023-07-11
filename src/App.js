@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Navigation from "./routers/Navigation";
 import Home from "./routers/Home";
 import AboutUs from "./routers/AboutUs";
-import Services from "./routers/Services";
+import Services from "./routers/Services/Services";
 import Projects from "./routers/Projects";
 import Careers from "./routers/Careers";
 import ContactUs from "./routers/ContactUs";
@@ -18,7 +18,7 @@ function App() {
       </Route>
       <Route path="/" element={<NavigationDark/>}>
         <Route path="aboutus" element={<AboutUs />} />
-        <Route path="services" element={<Services />} />
+        <Route path="services/*" element={<Services />}/>
       </Route>
     </Routes>
   );

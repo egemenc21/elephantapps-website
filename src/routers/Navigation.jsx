@@ -17,6 +17,7 @@ const Navigation = () => {
   //Opening and closing the navigation bar in smaller screens
   const [nav, setNav] = useState(false);
   const [lang, setLang] = useState(false);
+  const [transition, setTransition] = useState(false);
 
   //Changing the navbar when scrolling
   const [color, setColor] = useState(false);
@@ -32,7 +33,11 @@ const Navigation = () => {
     window.addEventListener("scroll", changeColor);   
   }, []); 
   const handleNav = () => {
-    setNav(!nav);
+    setTransition(!transition);
+    setTimeout(() => {
+      setNav(!nav);
+    }, 700);
+    
   };
   const handleLang = () => {
     setLang(!lang);
@@ -70,10 +75,10 @@ const Navigation = () => {
     </div>
     <div
       className={
-        nav
+        transition
           ? "fixed left-0 top-0 w-[100%] h-[100vh] bg-white ease-in-out duration-700"
-          : "fixed left-[-100%]"
-      }
+          : "fixed left-[-100%] ease-in-out duration-700"
+       }
     >
       <ul className=" text-xl flex flex-col items-center justify-center my-[25%]">
         <li onClick={handleNav}>

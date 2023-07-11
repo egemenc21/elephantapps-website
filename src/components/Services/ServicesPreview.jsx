@@ -1,11 +1,9 @@
-import React from "react";
-import Button, { BUTTON_TYPE_CLASSES } from "../components/Button";
-import ServicesElement from "../components/Services/ServicesCardsElement";
-import Elephant from '../assets/elephantgeometric.svg'
-import Footer from "../components/Footer";
-import {servicesCardItems} from '../components/Services/ServicesCardInfo.js'
+import React from 'react'
+import Button, { BUTTON_TYPE_CLASSES } from '../Button'
+import ServicesCard from './ServicesCard'
+import Footer from '../Footer'
 
-const Services = () => {
+const ServicesPreview = () => {
   return (
     <div>
       <div className="bg-[url('/src/assets/whatwedo.jpg')] h-[100vh] bg-fixed bg-center">
@@ -33,17 +31,10 @@ const Services = () => {
           </div>
         </div>
       </div>
-      
-      <div className="flex flex-col items-center bg-[#fafafa]">
-      {servicesCardItems.map((cardItem) => (
-        <ServicesElement key={cardItem.id} cards={cardItem.cards} name={cardItem.name} />
-      ))} 
-      <img src={Elephant} className="w-[250px]" alt="Elephant" />
-
-      </div>
-      <Footer/>
+      <ServicesCard />
+      <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Services;
+export default ServicesPreview

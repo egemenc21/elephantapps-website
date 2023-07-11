@@ -1,6 +1,7 @@
 import React from "react";
 import { SmallHeading } from "../../routers/Home";
 import PlanningElement from "./PlanningElement";
+import { motion } from "framer-motion";
 const planningItems = [
   {
     id: 1,
@@ -29,6 +30,22 @@ technological solutions`,
   },
 ];
 
+
+const Variants = {
+  offscreen: {
+    x: -300,
+    opacity:0
+  },
+  onscreen: {
+    x: 50,
+    opacity:1,
+    transition: {
+      type: "spring",
+      duration: 1.5
+    }
+  }
+};
+
 const Planning = () => {
   return (
     <div className="py-8 px-[25px] bg-[#FAFAFA]">
@@ -40,8 +57,13 @@ const Planning = () => {
         className="after:absolute after:inset-0 after:border-t-2 after:border-[#ff5354] after:top-0 after:right-[50%] pt-2"
       />
 
-      <div className="grid lg:grid-cols-2 mt-2">
-        <div className="p-16 bg-white">
+      <motion.div
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.8 }}
+        className="grid lg:grid-cols-2 mt-2"
+      >
+        <motion.div variants={Variants} className="p-16 bg-white">
           <SmallHeading className={"py-2 my-2"} name={"What Do We Do?"} />
           <h3 className="text-4xl py-2 my-2">
             Developing Enterprise Applications.
@@ -51,13 +73,13 @@ const Planning = () => {
             self-improving team. We do life cycle analysis of applications, and
             we plan the development and publishing processes perfectly.
           </p>
-        </div>
+        </motion.div>
         <div className="grid sm:grid-cols-2">
           {planningItems.map((item) => (
-            <PlanningElement key={item.id} item={item} />
+            <PlanningElement key={item.id} item={item} variants={Variants} />
           ))}
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

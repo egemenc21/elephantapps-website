@@ -9,7 +9,6 @@ import HardwareDevelopment from "../../assets/services/hardwaredevelopment.png";
 import IotProjects from "../../assets/services/iotprojects.png";
 import Middleware from "../../assets/services/middleware.png";
 
-
 export const servicesCardItems = [
   {
     id: 1,
@@ -17,15 +16,15 @@ export const servicesCardItems = [
     cards: [
       {
         image: PwaReact,
-        text: "Progressive Web App Development with React JS",
+        heading: "Progressive Web App Development with React JS",        
       },
       {
         image: NativeMobileApp,
-        text: "Native Mobile App Development - iOS & Android",
+        heading: "Native Mobile App Development - iOS & Android",
       },
       {
         image: CrossPlatform,
-        text: "Crossplatform Mobile App Development With React-Native",
+        heading: "Crossplatform Mobile App Development With React-Native",
       },
     ],
   },
@@ -35,19 +34,19 @@ export const servicesCardItems = [
     cards: [
       {
         image: Database,
-        text: "Database Application Development",
+        heading: "Database Application Development",
       },
       {
         image: AppService,
-        text: "Application Service Development",
+        heading: "Application Service Development",
       },
       {
         image: Api,
-        text: "Api Development",
+        heading: "Api Development",
       },
       {
         image: Middleware,
-        text: "Middleware Software Development",
+        heading: "Middleware Software Development",
       },
     ],
   },
@@ -57,15 +56,15 @@ export const servicesCardItems = [
     cards: [
       {
         image: HardwareDevelopment,
-        text: "Hardware development",
+        heading: "Hardware development",
       },
       {
         image: IotProjects,
-        text: "IOT Projects",
+        heading: "IOT Projects",
       },
       {
         image: IotProjects,
-        text: "Hardware Products",
+        heading: "Hardware Products",
       },
     ],
   },
@@ -75,15 +74,15 @@ export const servicesCardItems = [
     cards: [
       {
         image: Consulting,
-        text: "Software Project Consulting",
+        heading: "Software Project Consulting",
       },
       {
         image: Consulting,
-        text: "IT Consulting",
+        heading: "IT Consulting",
       },
       {
         image: Consulting,
-        text: "MIS Consulting",
+        heading: "MIS Consulting",
       },
     ],
   },

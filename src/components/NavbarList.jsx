@@ -10,7 +10,7 @@ const NavbarList = ({ name }) => {
       to={name !== "Home" ? lowercaseAndMergeName(name) : "/"}
       className={({ isActive }) =>
         (isActive
-          ? "lg:border-t-[3px] lg:border-t-red-400 text-[#000000] "
+          ? "lg:border-t-[3px] lg:border-t-red-400 text-[#1d1010] "
           : "") +
         " py-4 text-xs px-2 ml-2 text-gray-400 leading-relaxed hover:text-black"
       }

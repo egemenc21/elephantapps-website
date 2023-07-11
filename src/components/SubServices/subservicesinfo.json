@@ -1,0 +1,26 @@
+{
+  "progressive-web-app-development": 
+    { "heading": "Progressive Web App Development with React JS",
+      "subHeading": "How to build a progressive web app using React?",
+      "quote": "Introduced by Google in 2015, Progressive Webs Apps, PWAs, are apps that offer a native app-like feel to web applications that are designed to work cross-platform. These offer features like offline capability, local caching of assets, push notifications, and performance benefits. Technically speaking, a web app must have three main components for us to call it a progressive web app.",
+      "apps": [
+        {
+          "id": 1,
+          "name": "Mobixa",
+          "icon": "https://elephantapps.co/static/mobixa-f7fa55993bab0ef1869514b837216d7e.png",
+          "imageUrl": "https://elephantapps.co/static/projects_mobixa-ce14c12b59dfc864096d0b1bbdf9f85e.png"
+        },
+        {
+          "id": 2,
+          "name": "Dorabase",
+          "imageUrl": "https://elephantapps.co/static/projects_dorabase-4e61f69e06779d59c2334ab7e78f13a5.png"
+        },
+        {
+          "id": 3,
+          "name": "ElephantApps",
+          "imageUrl": "https://elephantapps.co/static/projects_elephantapps-3ff45d327e60a783238e7c8a0c805ebb.png"
+        }
+      ]
+    }
+  
+}
