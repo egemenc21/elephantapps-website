@@ -16,7 +16,7 @@ export const CardItem = ({ image, heading }) => {
 
 const ServicesCardItem = ({ cards, name }) => {
   return (
-    <div className="mx-auto pt-[100px] px-10  flex flex-col items-center gap-5 ">
+    <div className="mx-auto pt-[100px] px-10 flex flex-col items-center gap-5 ">
       <span className="text-[#ff5354] text-2xl font-light relative uppercase after:absolute after:inset-0 after:border-t-2 after:border-[#ff5354] after:top-0 after:right-[25%] after:left-[25%] pt-2">
         {name}
       </span>

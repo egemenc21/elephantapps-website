@@ -10,7 +10,6 @@ const SubServices = () => {
   const { sub_services } = useParams();
   
   const [products, setProducts] = useState(subServicesMap[sub_services]);
-  console.log(products.heading);
 
   useEffect(() => {
     setProducts(subServicesMap[sub_services]);

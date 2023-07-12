@@ -24,10 +24,10 @@ const ProjectsElement = ({ cardItem }) => {
   return (
     <div>
       <div className="grid lg:grid-cols-5 py-4 pl-4">
-        <div className="col-span-1 relative">
+        <div className="col-span-1 ">
           <h2
             className={
-              "text-xl mb-4 " +
+              "text-xl mb-4 relative " +
               (id === 1
                 ? "after:absolute after:inset-0 after:border-t-2 after:border-[#ff5354] after:top-0 after:right-[88%] pt-2"
                 : " ")

@@ -6,7 +6,8 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('/src/assets/bg_whoarewe.jpg')",
         
-      }
+      },
+      
     },
   },
   plugins: [],

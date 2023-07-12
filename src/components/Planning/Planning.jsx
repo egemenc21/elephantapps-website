@@ -65,7 +65,7 @@ const Planning = () => {
       >
         <motion.div variants={Variants} className="p-16 bg-white">
           <SmallHeading className={"py-2 my-2"} name={"What Do We Do?"} />
-          <h3 className="text-4xl py-2 my-2">
+          <h3 className="text-4xl text-center py-2 my-2">
             Developing Enterprise Applications.
           </h3>
           <p className="my-2">

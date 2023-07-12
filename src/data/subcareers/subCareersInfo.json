@@ -1,0 +1,74 @@
+{
+  "ios-developer": {
+    "heading":"Native iOS Developer (Mid-Senior Level)",
+    "jobDescription": [
+      "Responsible for development, programming, coding of complex and business-critical Information Technology solutions using Swift",
+      "Responsible to complete tasks in due time. Working as a team member using Slack, Git, and Task management software",
+      "Remote working options available"
+    ],
+    "requiredSkills":["Strong knowledge of Xcode"],
+    "requiredExprience": ["At least 2 years of experience and proficiency in developing applications using Swift"],
+    "preferredEducation":["Bachelor’s Degree in Computer Science, Software/Computer Engineering or a closely related field"]
+
+  },
+  "android-developer": {
+    "heading":"Native iOS Developer (Mid-Senior Level)",
+    "jobDescription": [
+      "Responsible for development, programming, coding of complex and business-critical Information Technology solutions using Swift",
+      "Responsible to complete tasks in due time. Working as a team member using Slack, Git, and Task management software",
+      "Remote working options available"
+    ],
+    "requiredSkills":["Strong knowledge of Xcode"],
+    "requiredExprience": ["At least 2 years of experience and proficiency in developing applications using Swift"],
+    "preferredEducation":["Bachelor’s Degree in Computer Science, Software/Computer Engineering or a closely related field"]
+
+  },
+  "frontend-developer": {
+    "heading":"Native iOS Developer (Mid-Senior Level)",
+    "jobDescription": [
+      "Responsible for development, programming, coding of complex and business-critical Information Technology solutions using Swift",
+      "Responsible to complete tasks in due time. Working as a team member using Slack, Git, and Task management software",
+      "Remote working options available"
+    ],
+    "requiredSkills":["Strong knowledge of Xcode"],
+    "requiredExprience": ["At least 2 years of experience and proficiency in developing applications using Swift"],
+    "preferredEducation":["Bachelor’s Degree in Computer Science, Software/Computer Engineering or a closely related field"]
+
+  },
+  "backend-developer": {
+    "heading":"Native iOS Developer (Mid-Senior Level)",
+    "jobDescription": [
+      "Responsible for development, programming, coding of complex and business-critical Information Technology solutions using Swift",
+      "Responsible to complete tasks in due time. Working as a team member using Slack, Git, and Task management software",
+      "Remote working options available"
+    ],
+    "requiredSkills":["Strong knowledge of Xcode"],
+    "requiredExprience": ["At least 2 years of experience and proficiency in developing applications using Swift"],
+    "preferredEducation":["Bachelor’s Degree in Computer Science, Software/Computer Engineering or a closely related field"]
+
+  },
+  "ui-ux-designer": {
+    "heading":"Native iOS Developer (Mid-Senior Level)",
+    "jobDescription": [
+      "Responsible for development, programming, coding of complex and business-critical Information Technology solutions using Swift",
+      "Responsible to complete tasks in due time. Working as a team member using Slack, Git, and Task management software",
+      "Remote working options available"
+    ],
+    "requiredSkills":["Strong knowledge of Xcode"],
+    "requiredExprience": ["At least 2 years of experience and proficiency in developing applications using Swift"],
+    "preferredEducation":["Bachelor’s Degree in Computer Science, Software/Computer Engineering or a closely related field"]
+
+  },
+  "software-project-developer": {
+    "heading":"Native iOS Developer (Mid-Senior Level)",
+    "jobDescription": [
+      "Responsible for development, programming, coding of complex and business-critical Information Technology solutions using Swift",
+      "Responsible to complete tasks in due time. Working as a team member using Slack, Git, and Task management software",
+      "Remote working options available"
+    ],
+    "requiredSkills":["Strong knowledge of Xcode"],
+    "requiredExprience": ["At least 2 years of experience and proficiency in developing applications using Swift"],
+    "preferredEducation":["Bachelor’s Degree in Computer Science, Software/Computer Engineering or a closely related field"]
+
+  }
+}
