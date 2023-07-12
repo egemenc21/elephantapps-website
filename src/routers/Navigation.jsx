@@ -70,7 +70,7 @@ const Navigation = () => {
         className="lg:hidden block hover:cursor-pointer my-4"
         onClick={handleNav}
       >
-        <AiOutlineMenu size={30} />
+        <AiOutlineMenu className="mr-4" size={30} />
       </div>
     </div>
     <div

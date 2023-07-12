@@ -4,7 +4,7 @@ import { FooterDataElements } from "../FooterData";
 import SubServicesElement from "./SubServicesElement";
 import { useParams } from "react-router-dom";
 
-const subServicesMap = require('./subservicesinfo.json')
+const subServicesMap = require('../../data/subservices/subservicesinfo.json')
 
 const SubServices = () => {
   const { sub_services } = useParams();

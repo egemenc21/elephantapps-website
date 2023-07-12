@@ -1,5 +1,5 @@
 import React from 'react'
-import { servicesCardItems } from './ServicesCardInfo'
+import { servicesCardItems } from '../../data/services/servicesCardInfo'
 import Elephant from "../../assets/elephantgeometric.svg";
 import ServicesCardItem from './ServicesCardItem';
 

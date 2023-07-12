@@ -33,7 +33,7 @@ export const FooterDataElements = () => {
           opacity: 1,
           transition: {
             type: "spring",
-            duration: 1,
+            duration: 0.7,
           },
         },
       }}

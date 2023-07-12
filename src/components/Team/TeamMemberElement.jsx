@@ -20,7 +20,7 @@ const TeamMemberElement = ({ member, className }) => {
           opacity: 1,
           transition: {
             type: "spring",
-            duration: 1.2,
+            duration: 0.7,
           },
         },
       }}

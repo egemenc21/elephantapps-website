@@ -28,7 +28,7 @@ const Maintenance = () => {
               opacity: 1,
               transition: {
                 type: "spring",                
-                duration: 1.5,
+                duration: 0.7,
               },
             },
           }}
@@ -49,7 +49,7 @@ const Maintenance = () => {
               transition: {
                 type: "spring",
                 delay: 0.5,
-                duration: 1.5,
+                duration: 0.7,
               },
             },
           }}
