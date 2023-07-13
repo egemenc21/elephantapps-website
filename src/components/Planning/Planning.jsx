@@ -30,20 +30,19 @@ technological solutions`,
   },
 ];
 
-
 const Variants = {
   offscreen: {
     x: -300,
-    opacity:0
+    opacity: 0,
   },
   onscreen: {
     x: 0,
-    opacity:1,
+    opacity: 1,
     transition: {
       type: "spring",
-      duration: 1.5
-    }
-  }
+      duration: 0.7,
+    },
+  },
 };
 
 const Planning = () => {
@@ -60,7 +59,7 @@ const Planning = () => {
       <motion.div
         initial="offscreen"
         whileInView="onscreen"
-        viewport={{ once: true, amount: 0.8 }}
+        viewport={{ once: true  , amount:0.8}}
         className="grid lg:grid-cols-2 mt-2"
       >
         <motion.div variants={Variants} className="p-16 bg-white">

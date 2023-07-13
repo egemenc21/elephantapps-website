@@ -8,10 +8,11 @@ const NavbarDarkList = ({ name }) => {
       to={name !== "Home" ? lowercaseAndMergeName(name) : "/"}
       className={({ isActive }) =>
         (isActive
-          ? "lg:border-t-[3px] lg:border-t-white text-[#ffffff] "
+          ? "lg:border-t-[3px] text-white lg:border-t-white  "
           : "") +
-        " py-4 text-xs px-2 ml-2 text-gray-400 leading-relaxed hover:text-white  "
+        " pt-7 pb-[30px] px-[10px] text-xs ml-2 text-gray-400 leading-relaxed hover:text-white  "
       }
+      
     >
       {name}
     </NavLink>

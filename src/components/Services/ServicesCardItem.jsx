@@ -1,6 +1,6 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-router-dom";
-
 export const CardItem = ({ image, heading }) => {
   const words = heading.split(" ");
   const transformedString = words.slice(0, 4).join("-").toLowerCase();
@@ -16,16 +16,38 @@ export const CardItem = ({ image, heading }) => {
 
 const ServicesCardItem = ({ cards, name }) => {
   return (
-    <div className="mx-auto pt-[100px] px-10 flex flex-col items-center gap-5 ">
+    <motion.div
+      initial="offscreen"
+      whileInView="onscreen"
+      viewport={{ once: true }}
+      className="mx-auto pt-[100px] px-10 flex flex-col items-center gap-5 "
+    >
       <span className="text-[#ff5354] text-2xl font-light relative uppercase after:absolute after:inset-0 after:border-t-2 after:border-[#ff5354] after:top-0 after:right-[25%] after:left-[25%] pt-2">
         {name}
       </span>
-      <div className="grid sm:grid-cols-2  lg:flex justify-center gap-8">
+      <motion.div
+        variants={{
+          offscreen: {
+            x: -300,
+            opacity: 0,
+          },
+          onscreen: {
+            x: 0,
+            opacity: 1,
+            transition: {
+              type: "spring",
+              duration: 1.5,
+              delay:0.7
+            },
+          },
+        }}
+        className="grid sm:grid-cols-2  lg:flex justify-center gap-8"
+      >
         {cards.map((card, index) => (
           <CardItem key={index} image={card.image} heading={card.heading} />
         ))}
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 

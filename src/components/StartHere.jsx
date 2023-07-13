@@ -8,6 +8,7 @@ const StartHere = () => {
     <motion.div
       initial="offscreen"
       whileInView="onscreen"
+      viewport={{ once: true, amount:0.8}}
       className="px-[25px] py-4 text-gray-500"
     >
       <motion.div
@@ -20,7 +21,7 @@ const StartHere = () => {
             x: 0,
             opacity: 1,
             transition: {
-              type: "spring",              
+              type: "spring",
               duration: 1,
             },
           },

@@ -25,15 +25,15 @@ export const FooterDataElements = () => {
     <motion.div
       variants={{
         offscreen: {
-          x: -300,
-          opacity: 0,
+          x: -300,         
         },
         onscreen: {
-          x: 0,
-          opacity: 1,
+          x: 0,          
           transition: {
             type: "spring",
-            duration: 0.7,
+            duration: 1.2,
+            ease:"ease",
+            delay:0.8
           },
         },
       }}
@@ -54,7 +54,7 @@ const FooterData = () => {
     <motion.div
       initial="offscreen"
       whileInView="onscreen"
-      viewport={{ once: true, amount: 0.8 }}
+      viewport={{ once: true }}
       className="py-8 px-[25px] "
     >
       <FooterDataElements />

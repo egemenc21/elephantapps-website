@@ -4,7 +4,6 @@ import Team, { TEAM_TYPE_CLASSES } from "../components/Team/Team";
 import Footer from "../components/Footer";
 
 
-
 const AboutUs = () => {
   return (
     <div>

@@ -39,12 +39,12 @@ const Footer = () => {
           <li className="text-sm text-black uppercase pt-2">Contact us</li>
           <FooterLinks
             name={"Head Office — TR: +90 (216) 225-8364"}
-            link={"https://www.google.com"}
+            link={"tel:+90 (216) 225-8364"}
             target="_blank"
           />
           <FooterLinks
             name={"USA Office — USA: +1 305-521-3378"}
-            link={"https://www.google.com"}
+            link={"tel:+1 305-521-3378"}
             target="_blank"
           />
           <FooterLinks

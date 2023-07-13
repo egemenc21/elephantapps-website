@@ -45,7 +45,7 @@ const Home = () => {
         <motion.div
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true, amount: 0.8 }}
+          viewport={{ once: true}}
           className="grid lg:grid-cols-2 mt-2 "
         >
           <div className="flex flex-col items-center justify-center gap-5 p-4">

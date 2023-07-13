@@ -18,7 +18,7 @@ const BaseTeam = () => (
   <motion.div
     initial="offscreen"
     whileInView="onscreen"
-    viewport={{ once: true, amount: 0.8 }}
+    viewport={{ once: true}}
     className="px-[25px] py-8 bg-[#FAFAFA]"
   >
     <SmallHeading name={"Team"} />
