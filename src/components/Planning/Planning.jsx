@@ -2,30 +2,34 @@ import React from "react";
 import { SmallHeading } from "../../routers/Home";
 import PlanningElement from "./PlanningElement";
 import { motion } from "framer-motion";
+import IconAnalysis from '../../assets/originalAssets/general/icon_analysis.inline.svg'
+import IconStrategy from '../../assets/originalAssets/general/icon_strategy.inline.svg'
+import IconTime from '../../assets/originalAssets/general/icon_time.inline.svg'
+import IconWireFrame from '../../assets/originalAssets/general/icon_wireframe.inline.svg'
 const planningItems = [
   {
     id: 1,
     heading: "Identifying Needs",
-    icon: "icon",
+    icon: IconAnalysis,
     text: `We accurately identify your needs with accurate analyzes and
 technological solutions`,
   },
   {
     id: 2,
     heading: "System Design",
-    icon: "icon",
+    icon: IconStrategy,
     text: `We design your applications according to user experience and modern design trends.`,
   },
   {
     id: 3,
     heading: "Strategic System Analysis",
-    icon: "icon",
+    icon: IconTime,
     text: `We research for competitors and applications, and we plan the most suitable system.`,
   },
   {
     id: 4,
     heading: "Project Plan and Cost Analysis",
-    icon: "icon",
+    icon: IconWireFrame,
     text: `We perform our project planning in accordance with our customers' time and budget.`,
   },
 ];
@@ -75,7 +79,7 @@ const Planning = () => {
         </motion.div>
         <div className="grid sm:grid-cols-2">
           {planningItems.map((item) => (
-            <PlanningElement key={item.id} item={item} />
+            <PlanningElement key={item.id} item={item}/>
           ))}
         </div>
       </motion.div>

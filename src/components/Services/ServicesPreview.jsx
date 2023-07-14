@@ -3,20 +3,6 @@ import Button, { BUTTON_TYPE_CLASSES } from "../Button";
 import ServicesCard from "./ServicesCard";
 import Footer from "../Footer";
 import { motion } from "framer-motion";
-export const variantsLeftToRight = (delay = 0) => {
-  return `offscreen: {
-    x: -300,
-    opacity: 0,
-  },
-  onscreen: {
-    x: 0,
-    opacity: 1,
-    transition: {
-      type: "spring",
-      duration: 0.7,      
-    },
-  }`;
-};
 
 const ServicesPreview = () => {
   return (
@@ -30,15 +16,16 @@ const ServicesPreview = () => {
           <motion.h1
             variants={{
               offscreen: {
-                x: -300,
+                y: +25,
                 opacity: 0,
               },
               onscreen: {
-                x: 0,
+                y: 0,
                 opacity: 1,
                 transition: {
                   type: "spring",
                   duration: 0.7,
+                  ease:"ease"
                 },
               },
             }}
@@ -50,16 +37,17 @@ const ServicesPreview = () => {
           <motion.p
             variants={{
               offscreen: {
-                x: -300,
+                y: +25,
                 opacity: 0,
               },
               onscreen: {
-                x: 0,
+                y: 0,
                 opacity: 1,
                 transition: {
                   type: "spring",
                   duration: 0.7,
                   delay: 0.2,
+                  ease:"ease"
                 },
               },
             }}
@@ -72,16 +60,17 @@ const ServicesPreview = () => {
           <motion.div
             variants={{
               offscreen: {
-                x: -300,
+                y: +25,
                 opacity: 0,
               },
               onscreen: {
-                x: 0,
+                y: 0,
                 opacity: 1,
                 transition: {
                   type: "spring",
                   duration: 0.7,
                   delay: 0.4,
+                  ease:"ease"
                 },
               },
             }}

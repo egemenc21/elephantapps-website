@@ -19,7 +19,7 @@ const ServicesCardItem = ({ cards, name }) => {
     <motion.div
       initial="offscreen"
       whileInView="onscreen"
-      viewport={{ once: true }}
+      viewport={{ once: true, amount:0.7 }}
       className="mx-auto pt-[100px] px-10 flex flex-col items-center gap-5 "
     >
       <span className="text-[#ff5354] text-2xl font-light relative uppercase after:absolute after:inset-0 after:border-t-2 after:border-[#ff5354] after:top-0 after:right-[25%] after:left-[25%] pt-2">
@@ -28,7 +28,7 @@ const ServicesCardItem = ({ cards, name }) => {
       <motion.div
         variants={{
           offscreen: {
-            x: -300,
+            x: -75,
             opacity: 0,
           },
           onscreen: {
@@ -36,8 +36,7 @@ const ServicesCardItem = ({ cards, name }) => {
             opacity: 1,
             transition: {
               type: "spring",
-              duration: 1.5,
-              delay:0.7
+              duration: 0.7              
             },
           },
         }}

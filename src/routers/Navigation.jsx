@@ -16,7 +16,7 @@ export const LangButton = ({ logo, lang }) => (
     <img className="w-5 " src={logo} alt="Logo" />
   </>
 );
-const navbarNames = [
+export const navbarNames = [
   "Home",
   "About us",
   "Services",
@@ -77,7 +77,7 @@ const Navigation = () => {
      ${!color ? null : "shadow-lg "} `}
         >
           <Link to={"/"} className="pl-4">
-            <img src={ElephantAppsIconBlack} alt="asdfas" />
+            <img src={ElephantAppsIconBlack} alt="ElephantAppsIconBlack" />
           </Link>
           <ul className="hidden lg:flex text-sm uppercase items-center">
             {navbarNames.map((name, index) => (
@@ -118,8 +118,8 @@ const Navigation = () => {
             className={`flex justify-between items-center hover:cursor-pointer bg-white transition duration-700 ease-in-out
    ${!color ? null : "shadow-lg "} `}
           >
-            <Link className="pl-4">
-              <img src={ElephantAppsIconWhite} alt="ElephantAppsIconBlack" />
+            <Link to={"/"} className="pl-4">
+              <img src={ElephantAppsIconWhite} alt="ElephantAppsIconWhite" />
             </Link>
             <ul className="hidden lg:flex text-sm uppercase items-center">
               {navbarNames.map((name, index) => {
@@ -163,7 +163,7 @@ const Navigation = () => {
             className={`flex justify-between items-center hover:cursor-pointer bg-white transition duration-700 ease-in-out
  ${!color ? null : "shadow-lg "} `}
           >
-            <Link className="pl-4">
+            <Link to={"/"} className="pl-4">
               <img src={ElephantAppsIconBlack} alt="ElephantAppsIconBlack" />
             </Link>
             <ul className="hidden lg:flex text-sm uppercase items-center">
@@ -172,7 +172,7 @@ const Navigation = () => {
               })}
 
               <li
-                className="px-4 py-2 mx-4 bg-[#fafafa] text-gray-400 text-[#ff5354] mr-[80px] flex justify-between gap-1"
+                className="px-4 py-2 mx-4 bg-[#fafafa] text-[#ff5354] mr-[80px] flex justify-between gap-1"
                 onClick={handleLang}
               >
                 {" "}
@@ -202,7 +202,7 @@ const Navigation = () => {
           <div
             className={`flex justify-between items-center hover:cursor-pointer bg-transparent transition`}
           >
-            <Link className="pl-4">
+            <Link to={"/"} className="pl-4">
               <img src={ElephantAppsIconWhite} alt="ElephantAppsIconWhite" />
             </Link>
             <ul className="hidden lg:flex text-sm uppercase items-center">

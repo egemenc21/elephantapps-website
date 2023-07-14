@@ -9,7 +9,7 @@ const CareersPreview = () => {
     <motion.div
       initial="offscreen"
       whileInView="onscreen"
-      viewport={{ once: true,amount:0.55 }}
+      viewport={{ once: true, amount: 0.4 }}
       className="pt-[150px] bg-[#FAFAFA] px-6"
     >
       <motion.div className="flex flex-col justify-center items-center gap-5">

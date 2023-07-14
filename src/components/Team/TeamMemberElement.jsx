@@ -12,13 +12,14 @@ const TeamMemberElement = ({ member, className }) => {
     <motion.div
       variants={{
         offscreen: {
-          x: -300,          
+          x: -50,          
         },
         onscreen: {
           x: 0,          
           transition: {
             type: "spring",
             duration: 0.7,
+            ease:"ease"
           },
         },
       }}

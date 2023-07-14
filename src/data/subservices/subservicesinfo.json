@@ -58,6 +58,413 @@
           "imageUrl": ""
         }
       ]
+    },
+  "crossplatform-mobile-app-development": 
+    { "heading": "Native Mobile App Development - iOS & Android",
+      "subHeading": "What is native app development?",
+      "quote": "Unlike websites and web applications, native mobile apps don’t run in the browser. You need to download them from platform-specific app stores such as Apple’s App Store and Google Play. After installation, you can access each app by tapping its respective icon on the screen of your device. Native app development requires different skills and technologies than mobile website development. You don’t have to worry about browser behavior and compatibility. You can use the native features of mobile OSs to deliver the user experience and implement the functionalities of your app.",
+      "apps": [
+        {
+          "id": 4,
+          "name": "Filli Boya En Yakın Bayı",
+          "icon": "https://elephantapps.co/static/filliboyaenyakinbayi-06c0c17c3ae32eba147283e6a8e45346.png",
+          "imageUrl": "https://elephantapps.co/static/projects_enyakinbayi-a1bfc16f17bbd85b05c05ca813ce2040.png"
+        },
+        {
+          "id": 5,
+          "name": "Mimar Benim",
+          "icon":"https://elephantapps.co/static/mimarbenim-3de7a569200b6deac4324f86021c3ef1.png",
+          "imageUrl": "https://elephantapps.co/static/projects_mimarbenim-b3650a1664fd4d04cf47365662131325.png"
+        },
+        {
+          "id": 6,
+          "name": "Fawori Boya En Yakın Bayi",
+          "icon": "https://elephantapps.co/static/faworienyakinbayi-917c49a80da809b16b0136601733d4b8.png",
+          "imageUrl": "https://elephantapps.co/static/projects_elephantapps-3ff45d327e60a783238e7c8a0c805ebb.png"
+        },
+        {
+          "id": 7,
+          "name": "Engelsiz Dünya",
+          "icon": "https://elephantapps.co/static/vodafoneengelsizdunya-8b9f5fdf9d7ffc6a4fd73dc6f5f33f08.png",
+          "imageUrl": "https://elephantapps.co/static/projects_engelsizdunya-3c8f5254eaa85889887c26d2a1570abd.png"
+        },
+        {
+          "id": 8,
+          "name": "AssignToMe",
+          "icon": "https://elephantapps.co/static/assigntome-1a23554cfb3060b41729f49f7710f11e.png",
+          "imageUrl": ""
+        }
+      ]
+    },
+  "database-application-development": 
+    { "heading": "Native Mobile App Development - iOS & Android",
+      "subHeading": "What is native app development?",
+      "quote": "Unlike websites and web applications, native mobile apps don’t run in the browser. You need to download them from platform-specific app stores such as Apple’s App Store and Google Play. After installation, you can access each app by tapping its respective icon on the screen of your device. Native app development requires different skills and technologies than mobile website development. You don’t have to worry about browser behavior and compatibility. You can use the native features of mobile OSs to deliver the user experience and implement the functionalities of your app.",
+      "apps": [
+        {
+          "id": 4,
+          "name": "Filli Boya En Yakın Bayı",
+          "icon": "https://elephantapps.co/static/filliboyaenyakinbayi-06c0c17c3ae32eba147283e6a8e45346.png",
+          "imageUrl": "https://elephantapps.co/static/projects_enyakinbayi-a1bfc16f17bbd85b05c05ca813ce2040.png"
+        },
+        {
+          "id": 5,
+          "name": "Mimar Benim",
+          "icon":"https://elephantapps.co/static/mimarbenim-3de7a569200b6deac4324f86021c3ef1.png",
+          "imageUrl": "https://elephantapps.co/static/projects_mimarbenim-b3650a1664fd4d04cf47365662131325.png"
+        },
+        {
+          "id": 6,
+          "name": "Fawori Boya En Yakın Bayi",
+          "icon": "https://elephantapps.co/static/faworienyakinbayi-917c49a80da809b16b0136601733d4b8.png",
+          "imageUrl": "https://elephantapps.co/static/projects_elephantapps-3ff45d327e60a783238e7c8a0c805ebb.png"
+        },
+        {
+          "id": 7,
+          "name": "Engelsiz Dünya",
+          "icon": "https://elephantapps.co/static/vodafoneengelsizdunya-8b9f5fdf9d7ffc6a4fd73dc6f5f33f08.png",
+          "imageUrl": "https://elephantapps.co/static/projects_engelsizdunya-3c8f5254eaa85889887c26d2a1570abd.png"
+        },
+        {
+          "id": 8,
+          "name": "AssignToMe",
+          "icon": "https://elephantapps.co/static/assigntome-1a23554cfb3060b41729f49f7710f11e.png",
+          "imageUrl": ""
+        }
+      ]
+    },
+  "application-service-development": 
+    { "heading": "Native Mobile App Development - iOS & Android",
+      "subHeading": "What is native app development?",
+      "quote": "Unlike websites and web applications, native mobile apps don’t run in the browser. You need to download them from platform-specific app stores such as Apple’s App Store and Google Play. After installation, you can access each app by tapping its respective icon on the screen of your device. Native app development requires different skills and technologies than mobile website development. You don’t have to worry about browser behavior and compatibility. You can use the native features of mobile OSs to deliver the user experience and implement the functionalities of your app.",
+      "apps": [
+        {
+          "id": 4,
+          "name": "Filli Boya En Yakın Bayı",
+          "icon": "https://elephantapps.co/static/filliboyaenyakinbayi-06c0c17c3ae32eba147283e6a8e45346.png",
+          "imageUrl": "https://elephantapps.co/static/projects_enyakinbayi-a1bfc16f17bbd85b05c05ca813ce2040.png"
+        },
+        {
+          "id": 5,
+          "name": "Mimar Benim",
+          "icon":"https://elephantapps.co/static/mimarbenim-3de7a569200b6deac4324f86021c3ef1.png",
+          "imageUrl": "https://elephantapps.co/static/projects_mimarbenim-b3650a1664fd4d04cf47365662131325.png"
+        },
+        {
+          "id": 6,
+          "name": "Fawori Boya En Yakın Bayi",
+          "icon": "https://elephantapps.co/static/faworienyakinbayi-917c49a80da809b16b0136601733d4b8.png",
+          "imageUrl": "https://elephantapps.co/static/projects_elephantapps-3ff45d327e60a783238e7c8a0c805ebb.png"
+        },
+        {
+          "id": 7,
+          "name": "Engelsiz Dünya",
+          "icon": "https://elephantapps.co/static/vodafoneengelsizdunya-8b9f5fdf9d7ffc6a4fd73dc6f5f33f08.png",
+          "imageUrl": "https://elephantapps.co/static/projects_engelsizdunya-3c8f5254eaa85889887c26d2a1570abd.png"
+        },
+        {
+          "id": 8,
+          "name": "AssignToMe",
+          "icon": "https://elephantapps.co/static/assigntome-1a23554cfb3060b41729f49f7710f11e.png",
+          "imageUrl": ""
+        }
+      ]
+    },
+  "api-development": 
+    { "heading": "Native Mobile App Development - iOS & Android",
+      "subHeading": "What is native app development?",
+      "quote": "Unlike websites and web applications, native mobile apps don’t run in the browser. You need to download them from platform-specific app stores such as Apple’s App Store and Google Play. After installation, you can access each app by tapping its respective icon on the screen of your device. Native app development requires different skills and technologies than mobile website development. You don’t have to worry about browser behavior and compatibility. You can use the native features of mobile OSs to deliver the user experience and implement the functionalities of your app.",
+      "apps": [
+        {
+          "id": 4,
+          "name": "Filli Boya En Yakın Bayı",
+          "icon": "https://elephantapps.co/static/filliboyaenyakinbayi-06c0c17c3ae32eba147283e6a8e45346.png",
+          "imageUrl": "https://elephantapps.co/static/projects_enyakinbayi-a1bfc16f17bbd85b05c05ca813ce2040.png"
+        },
+        {
+          "id": 5,
+          "name": "Mimar Benim",
+          "icon":"https://elephantapps.co/static/mimarbenim-3de7a569200b6deac4324f86021c3ef1.png",
+          "imageUrl": "https://elephantapps.co/static/projects_mimarbenim-b3650a1664fd4d04cf47365662131325.png"
+        },
+        {
+          "id": 6,
+          "name": "Fawori Boya En Yakın Bayi",
+          "icon": "https://elephantapps.co/static/faworienyakinbayi-917c49a80da809b16b0136601733d4b8.png",
+          "imageUrl": "https://elephantapps.co/static/projects_elephantapps-3ff45d327e60a783238e7c8a0c805ebb.png"
+        },
+        {
+          "id": 7,
+          "name": "Engelsiz Dünya",
+          "icon": "https://elephantapps.co/static/vodafoneengelsizdunya-8b9f5fdf9d7ffc6a4fd73dc6f5f33f08.png",
+          "imageUrl": "https://elephantapps.co/static/projects_engelsizdunya-3c8f5254eaa85889887c26d2a1570abd.png"
+        },
+        {
+          "id": 8,
+          "name": "AssignToMe",
+          "icon": "https://elephantapps.co/static/assigntome-1a23554cfb3060b41729f49f7710f11e.png",
+          "imageUrl": ""
+        }
+      ]
+    },
+  "middleware-software-development": 
+    { "heading": "Native Mobile App Development - iOS & Android",
+      "subHeading": "What is native app development?",
+      "quote": "Unlike websites and web applications, native mobile apps don’t run in the browser. You need to download them from platform-specific app stores such as Apple’s App Store and Google Play. After installation, you can access each app by tapping its respective icon on the screen of your device. Native app development requires different skills and technologies than mobile website development. You don’t have to worry about browser behavior and compatibility. You can use the native features of mobile OSs to deliver the user experience and implement the functionalities of your app.",
+      "apps": [
+        {
+          "id": 4,
+          "name": "Filli Boya En Yakın Bayı",
+          "icon": "https://elephantapps.co/static/filliboyaenyakinbayi-06c0c17c3ae32eba147283e6a8e45346.png",
+          "imageUrl": "https://elephantapps.co/static/projects_enyakinbayi-a1bfc16f17bbd85b05c05ca813ce2040.png"
+        },
+        {
+          "id": 5,
+          "name": "Mimar Benim",
+          "icon":"https://elephantapps.co/static/mimarbenim-3de7a569200b6deac4324f86021c3ef1.png",
+          "imageUrl": "https://elephantapps.co/static/projects_mimarbenim-b3650a1664fd4d04cf47365662131325.png"
+        },
+        {
+          "id": 6,
+          "name": "Fawori Boya En Yakın Bayi",
+          "icon": "https://elephantapps.co/static/faworienyakinbayi-917c49a80da809b16b0136601733d4b8.png",
+          "imageUrl": "https://elephantapps.co/static/projects_elephantapps-3ff45d327e60a783238e7c8a0c805ebb.png"
+        },
+        {
+          "id": 7,
+          "name": "Engelsiz Dünya",
+          "icon": "https://elephantapps.co/static/vodafoneengelsizdunya-8b9f5fdf9d7ffc6a4fd73dc6f5f33f08.png",
+          "imageUrl": "https://elephantapps.co/static/projects_engelsizdunya-3c8f5254eaa85889887c26d2a1570abd.png"
+        },
+        {
+          "id": 8,
+          "name": "AssignToMe",
+          "icon": "https://elephantapps.co/static/assigntome-1a23554cfb3060b41729f49f7710f11e.png",
+          "imageUrl": ""
+        }
+      ]
+    },
+  "hardware-development": 
+    { "heading": "Native Mobile App Development - iOS & Android",
+      "subHeading": "What is native app development?",
+      "quote": "Unlike websites and web applications, native mobile apps don’t run in the browser. You need to download them from platform-specific app stores such as Apple’s App Store and Google Play. After installation, you can access each app by tapping its respective icon on the screen of your device. Native app development requires different skills and technologies than mobile website development. You don’t have to worry about browser behavior and compatibility. You can use the native features of mobile OSs to deliver the user experience and implement the functionalities of your app.",
+      "apps": [
+        {
+          "id": 4,
+          "name": "Filli Boya En Yakın Bayı",
+          "icon": "https://elephantapps.co/static/filliboyaenyakinbayi-06c0c17c3ae32eba147283e6a8e45346.png",
+          "imageUrl": "https://elephantapps.co/static/projects_enyakinbayi-a1bfc16f17bbd85b05c05ca813ce2040.png"
+        },
+        {
+          "id": 5,
+          "name": "Mimar Benim",
+          "icon":"https://elephantapps.co/static/mimarbenim-3de7a569200b6deac4324f86021c3ef1.png",
+          "imageUrl": "https://elephantapps.co/static/projects_mimarbenim-b3650a1664fd4d04cf47365662131325.png"
+        },
+        {
+          "id": 6,
+          "name": "Fawori Boya En Yakın Bayi",
+          "icon": "https://elephantapps.co/static/faworienyakinbayi-917c49a80da809b16b0136601733d4b8.png",
+          "imageUrl": "https://elephantapps.co/static/projects_elephantapps-3ff45d327e60a783238e7c8a0c805ebb.png"
+        },
+        {
+          "id": 7,
+          "name": "Engelsiz Dünya",
+          "icon": "https://elephantapps.co/static/vodafoneengelsizdunya-8b9f5fdf9d7ffc6a4fd73dc6f5f33f08.png",
+          "imageUrl": "https://elephantapps.co/static/projects_engelsizdunya-3c8f5254eaa85889887c26d2a1570abd.png"
+        },
+        {
+          "id": 8,
+          "name": "AssignToMe",
+          "icon": "https://elephantapps.co/static/assigntome-1a23554cfb3060b41729f49f7710f11e.png",
+          "imageUrl": ""
+        }
+      ]
+    },
+  "iot-projects": 
+    { "heading": "Native Mobile App Development - iOS & Android",
+      "subHeading": "What is native app development?",
+      "quote": "Unlike websites and web applications, native mobile apps don’t run in the browser. You need to download them from platform-specific app stores such as Apple’s App Store and Google Play. After installation, you can access each app by tapping its respective icon on the screen of your device. Native app development requires different skills and technologies than mobile website development. You don’t have to worry about browser behavior and compatibility. You can use the native features of mobile OSs to deliver the user experience and implement the functionalities of your app.",
+      "apps": [
+        {
+          "id": 4,
+          "name": "Filli Boya En Yakın Bayı",
+          "icon": "https://elephantapps.co/static/filliboyaenyakinbayi-06c0c17c3ae32eba147283e6a8e45346.png",
+          "imageUrl": "https://elephantapps.co/static/projects_enyakinbayi-a1bfc16f17bbd85b05c05ca813ce2040.png"
+        },
+        {
+          "id": 5,
+          "name": "Mimar Benim",
+          "icon":"https://elephantapps.co/static/mimarbenim-3de7a569200b6deac4324f86021c3ef1.png",
+          "imageUrl": "https://elephantapps.co/static/projects_mimarbenim-b3650a1664fd4d04cf47365662131325.png"
+        },
+        {
+          "id": 6,
+          "name": "Fawori Boya En Yakın Bayi",
+          "icon": "https://elephantapps.co/static/faworienyakinbayi-917c49a80da809b16b0136601733d4b8.png",
+          "imageUrl": "https://elephantapps.co/static/projects_elephantapps-3ff45d327e60a783238e7c8a0c805ebb.png"
+        },
+        {
+          "id": 7,
+          "name": "Engelsiz Dünya",
+          "icon": "https://elephantapps.co/static/vodafoneengelsizdunya-8b9f5fdf9d7ffc6a4fd73dc6f5f33f08.png",
+          "imageUrl": "https://elephantapps.co/static/projects_engelsizdunya-3c8f5254eaa85889887c26d2a1570abd.png"
+        },
+        {
+          "id": 8,
+          "name": "AssignToMe",
+          "icon": "https://elephantapps.co/static/assigntome-1a23554cfb3060b41729f49f7710f11e.png",
+          "imageUrl": ""
+        }
+      ]
+    },  
+  "hardware-products": 
+    { "heading": "Native Mobile App Development - iOS & Android",
+      "subHeading": "What is native app development?",
+      "quote": "Unlike websites and web applications, native mobile apps don’t run in the browser. You need to download them from platform-specific app stores such as Apple’s App Store and Google Play. After installation, you can access each app by tapping its respective icon on the screen of your device. Native app development requires different skills and technologies than mobile website development. You don’t have to worry about browser behavior and compatibility. You can use the native features of mobile OSs to deliver the user experience and implement the functionalities of your app.",
+      "apps": [
+        {
+          "id": 4,
+          "name": "Filli Boya En Yakın Bayı",
+          "icon": "https://elephantapps.co/static/filliboyaenyakinbayi-06c0c17c3ae32eba147283e6a8e45346.png",
+          "imageUrl": "https://elephantapps.co/static/projects_enyakinbayi-a1bfc16f17bbd85b05c05ca813ce2040.png"
+        },
+        {
+          "id": 5,
+          "name": "Mimar Benim",
+          "icon":"https://elephantapps.co/static/mimarbenim-3de7a569200b6deac4324f86021c3ef1.png",
+          "imageUrl": "https://elephantapps.co/static/projects_mimarbenim-b3650a1664fd4d04cf47365662131325.png"
+        },
+        {
+          "id": 6,
+          "name": "Fawori Boya En Yakın Bayi",
+          "icon": "https://elephantapps.co/static/faworienyakinbayi-917c49a80da809b16b0136601733d4b8.png",
+          "imageUrl": "https://elephantapps.co/static/projects_elephantapps-3ff45d327e60a783238e7c8a0c805ebb.png"
+        },
+        {
+          "id": 7,
+          "name": "Engelsiz Dünya",
+          "icon": "https://elephantapps.co/static/vodafoneengelsizdunya-8b9f5fdf9d7ffc6a4fd73dc6f5f33f08.png",
+          "imageUrl": "https://elephantapps.co/static/projects_engelsizdunya-3c8f5254eaa85889887c26d2a1570abd.png"
+        },
+        {
+          "id": 8,
+          "name": "AssignToMe",
+          "icon": "https://elephantapps.co/static/assigntome-1a23554cfb3060b41729f49f7710f11e.png",
+          "imageUrl": ""
+        }
+      ]
+    },
+  "software-project-consulting": 
+    { "heading": "Native Mobile App Development - iOS & Android",
+      "subHeading": "What is native app development?",
+      "quote": "Unlike websites and web applications, native mobile apps don’t run in the browser. You need to download them from platform-specific app stores such as Apple’s App Store and Google Play. After installation, you can access each app by tapping its respective icon on the screen of your device. Native app development requires different skills and technologies than mobile website development. You don’t have to worry about browser behavior and compatibility. You can use the native features of mobile OSs to deliver the user experience and implement the functionalities of your app.",
+      "apps": [
+        {
+          "id": 4,
+          "name": "Filli Boya En Yakın Bayı",
+          "icon": "https://elephantapps.co/static/filliboyaenyakinbayi-06c0c17c3ae32eba147283e6a8e45346.png",
+          "imageUrl": "https://elephantapps.co/static/projects_enyakinbayi-a1bfc16f17bbd85b05c05ca813ce2040.png"
+        },
+        {
+          "id": 5,
+          "name": "Mimar Benim",
+          "icon":"https://elephantapps.co/static/mimarbenim-3de7a569200b6deac4324f86021c3ef1.png",
+          "imageUrl": "https://elephantapps.co/static/projects_mimarbenim-b3650a1664fd4d04cf47365662131325.png"
+        },
+        {
+          "id": 6,
+          "name": "Fawori Boya En Yakın Bayi",
+          "icon": "https://elephantapps.co/static/faworienyakinbayi-917c49a80da809b16b0136601733d4b8.png",
+          "imageUrl": "https://elephantapps.co/static/projects_elephantapps-3ff45d327e60a783238e7c8a0c805ebb.png"
+        },
+        {
+          "id": 7,
+          "name": "Engelsiz Dünya",
+          "icon": "https://elephantapps.co/static/vodafoneengelsizdunya-8b9f5fdf9d7ffc6a4fd73dc6f5f33f08.png",
+          "imageUrl": "https://elephantapps.co/static/projects_engelsizdunya-3c8f5254eaa85889887c26d2a1570abd.png"
+        },
+        {
+          "id": 8,
+          "name": "AssignToMe",
+          "icon": "https://elephantapps.co/static/assigntome-1a23554cfb3060b41729f49f7710f11e.png",
+          "imageUrl": ""
+        }
+      ]
+    },
+  "it-consulting": 
+    { "heading": "Native Mobile App Development - iOS & Android",
+      "subHeading": "What is native app development?",
+      "quote": "Unlike websites and web applications, native mobile apps don’t run in the browser. You need to download them from platform-specific app stores such as Apple’s App Store and Google Play. After installation, you can access each app by tapping its respective icon on the screen of your device. Native app development requires different skills and technologies than mobile website development. You don’t have to worry about browser behavior and compatibility. You can use the native features of mobile OSs to deliver the user experience and implement the functionalities of your app.",
+      "apps": [
+        {
+          "id": 4,
+          "name": "Filli Boya En Yakın Bayı",
+          "icon": "https://elephantapps.co/static/filliboyaenyakinbayi-06c0c17c3ae32eba147283e6a8e45346.png",
+          "imageUrl": "https://elephantapps.co/static/projects_enyakinbayi-a1bfc16f17bbd85b05c05ca813ce2040.png"
+        },
+        {
+          "id": 5,
+          "name": "Mimar Benim",
+          "icon":"https://elephantapps.co/static/mimarbenim-3de7a569200b6deac4324f86021c3ef1.png",
+          "imageUrl": "https://elephantapps.co/static/projects_mimarbenim-b3650a1664fd4d04cf47365662131325.png"
+        },
+        {
+          "id": 6,
+          "name": "Fawori Boya En Yakın Bayi",
+          "icon": "https://elephantapps.co/static/faworienyakinbayi-917c49a80da809b16b0136601733d4b8.png",
+          "imageUrl": "https://elephantapps.co/static/projects_elephantapps-3ff45d327e60a783238e7c8a0c805ebb.png"
+        },
+        {
+          "id": 7,
+          "name": "Engelsiz Dünya",
+          "icon": "https://elephantapps.co/static/vodafoneengelsizdunya-8b9f5fdf9d7ffc6a4fd73dc6f5f33f08.png",
+          "imageUrl": "https://elephantapps.co/static/projects_engelsizdunya-3c8f5254eaa85889887c26d2a1570abd.png"
+        },
+        {
+          "id": 8,
+          "name": "AssignToMe",
+          "icon": "https://elephantapps.co/static/assigntome-1a23554cfb3060b41729f49f7710f11e.png",
+          "imageUrl": ""
+        }
+      ]
+    },
+  "mis-consulting": 
+    { "heading": "Native Mobile App Development - iOS & Android",
+      "subHeading": "What is native app development?",
+      "quote": "Unlike websites and web applications, native mobile apps don’t run in the browser. You need to download them from platform-specific app stores such as Apple’s App Store and Google Play. After installation, you can access each app by tapping its respective icon on the screen of your device. Native app development requires different skills and technologies than mobile website development. You don’t have to worry about browser behavior and compatibility. You can use the native features of mobile OSs to deliver the user experience and implement the functionalities of your app.",
+      "apps": [
+        {
+          "id": 4,
+          "name": "Filli Boya En Yakın Bayı",
+          "icon": "https://elephantapps.co/static/filliboyaenyakinbayi-06c0c17c3ae32eba147283e6a8e45346.png",
+          "imageUrl": "https://elephantapps.co/static/projects_enyakinbayi-a1bfc16f17bbd85b05c05ca813ce2040.png"
+        },
+        {
+          "id": 5,
+          "name": "Mimar Benim",
+          "icon":"https://elephantapps.co/static/mimarbenim-3de7a569200b6deac4324f86021c3ef1.png",
+          "imageUrl": "https://elephantapps.co/static/projects_mimarbenim-b3650a1664fd4d04cf47365662131325.png"
+        },
+        {
+          "id": 6,
+          "name": "Fawori Boya En Yakın Bayi",
+          "icon": "https://elephantapps.co/static/faworienyakinbayi-917c49a80da809b16b0136601733d4b8.png",
+          "imageUrl": "https://elephantapps.co/static/projects_elephantapps-3ff45d327e60a783238e7c8a0c805ebb.png"
+        },
+        {
+          "id": 7,
+          "name": "Engelsiz Dünya",
+          "icon": "https://elephantapps.co/static/vodafoneengelsizdunya-8b9f5fdf9d7ffc6a4fd73dc6f5f33f08.png",
+          "imageUrl": "https://elephantapps.co/static/projects_engelsizdunya-3c8f5254eaa85889887c26d2a1570abd.png"
+        },
+        {
+          "id": 8,
+          "name": "AssignToMe",
+          "icon": "https://elephantapps.co/static/assigntome-1a23554cfb3060b41729f49f7710f11e.png",
+          "imageUrl": ""
+        }
+      ]
     }
   
 }

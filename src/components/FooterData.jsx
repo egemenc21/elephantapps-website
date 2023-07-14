@@ -32,8 +32,7 @@ export const FooterDataElements = () => {
           transition: {
             type: "spring",
             duration: 1.2,
-            ease:"ease",
-            delay:0.8
+            ease:"ease",            
           },
         },
       }}
@@ -59,12 +58,12 @@ const FooterData = () => {
     >
       <FooterDataElements />
       <div className="flex justify-evenly items-center gap-10">
-        <a href="https://www.goodfirms.co/company/elephantapps" target="_blank">
+        <a href="https://www.goodfirms.co/company/elephantapps" target="_blank" rel="noreferrer">
           <img className="w-[200px]" src={AppDevImage} alt="AppDevImage" />
         </a>
         <a
           href="https://www.trustpilot.com/review/elephantapps.co"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <img className="w-[300px]" src={TrustLogo} alt="TrustLogo" />
         </a>

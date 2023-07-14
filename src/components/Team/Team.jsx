@@ -18,7 +18,7 @@ const BaseTeam = () => (
   <motion.div
     initial="offscreen"
     whileInView="onscreen"
-    viewport={{ once: true}}
+    viewport={{ once: true}}    
     className="px-[25px] py-8 bg-[#FAFAFA]"
   >
     <SmallHeading name={"Team"} />
@@ -26,7 +26,7 @@ const BaseTeam = () => (
       <motion.img
         variants={{
           offscreen: {
-            x: -300,
+            x: -50,
             opacity: 0,
           },
           onscreen: {
@@ -35,6 +35,7 @@ const BaseTeam = () => (
             transition: {
               type: "spring",
               duration: 0.7,
+              ease:"ease"
             },
           },
         }}
@@ -70,7 +71,7 @@ const InvertedTeam = () => (
       <motion.img
         variants={{
           offscreen: {
-            x: -300,
+            x: -50,
             opacity: 0,
           },
           onscreen: {
@@ -78,8 +79,8 @@ const InvertedTeam = () => (
             opacity: 1,
             transition: {
               type: "spring",
-              delay:0.5,
-              duration: 1.2,
+              delay:0.2,
+              duration: 0.7,
             },
           },
         }}

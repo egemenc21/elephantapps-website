@@ -2,7 +2,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import NavbarList from "./NavbarList";
 import { LangButton } from "../routers/Navigation";
 import { nanoid } from "nanoid";
-import { navbarNames } from "../routers/NavigationDark";
+import { navbarNames } from "../routers/Navigation";
 import TRLogo from "../assets/originalAssets/lang/tr.svg";
 import ENLogo from "../assets/originalAssets/lang/en.svg";
 import { AnimatePresence ,motion} from "framer-motion";

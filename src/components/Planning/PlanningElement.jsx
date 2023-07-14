@@ -1,8 +1,9 @@
 import React from "react";
 import {motion} from "framer-motion"
 
-const PlanningElement = ({ item}) => {
+const PlanningElement = ({item}) => {
   const { heading, icon, text } = item;
+  
   return (
     <motion.div  className="p-4" variants={{
       offscreen: {
@@ -20,7 +21,7 @@ const PlanningElement = ({ item}) => {
       }
     }}>
       <h4>{heading}</h4>
-      <span>{icon}</span>
+      <img src={icon} alt="sadfdsa" />
       <p className="text-gray-500">{text}</p>
     </motion.div>
   );
